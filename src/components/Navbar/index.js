@@ -5,8 +5,8 @@ const Navbar = (props) => {
     return (
         <nav className="navbar fixed-top navbar-dark bg-primary">
             <h5>Clicky-Game! By Beau Simpson</h5>
-            <h5>Click an Image to begin!</h5>
-            <h5>Score: {props.count} | Top Score: 0</h5>
+            <h5>{props.message}</h5>
+            <h5>Score: {props.score} | Top Score: {props.topScore}</h5>
         </nav>
     )
 }
