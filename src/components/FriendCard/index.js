@@ -7,7 +7,6 @@ const FriendCard = (props) => {
       <div className="img-container" id={props.id}>
         <img className="card-img-top" src={props.image} alt={props.name} id={props.id}/>
       </div>
-      <p>{props.id}</p>
     </div>
   );
 }
